@@ -1,0 +1,90 @@
+html {
+    background-color: cadetblue;
+    font-size: 10px;
+    font-family: 'Anton', sans-serif;
+}
+
+div {
+    left: 1%;
+    top: 3%;
+    background-color: chocolate;
+    position: relative;
+    border-radius: 20px;
+    height: auto;
+    padding: 5px;
+    margin: 5px;
+    width: 95%;
+
+}
+
+.conversionPress {
+    height: auto;
+    font-size: 6rem;
+    position: relative;
+    left: 10px;
+    background-color: darkblue;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: aliceblue;
+    padding: 5px;
+    margin-top: 5px;
+    display: inline-block;
+    width: 90px;
+    text-align: center;
+
+}
+
+.sectorID {
+    height: auto;
+    font-size: 6rem;
+    position: center;
+    left: 10px;
+    background-color: mediumvioletred;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-left: 5px;
+    padding: 5px;
+    display: inline-block;
+    width: 90px;
+    text-align: center;
+
+}
+
+.palletID {
+    height: auto;
+    font-size: 6rem;
+    position: center;
+    left: 10px;
+    background-color: yellow;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+
+
+}
+
+.btnAddSector {
+    position: relative;
+    top: 1px;
+    height: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 6rem;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btn-add-number {
+    display: inline-block;
+    vertical-align: middle;
+
+    transform: translateY(-50%);
+    margin: 0 auto;
+    background-color: white;
+    border: 3px solid black;
+    position: relative;
+
+    font-size: 4rem;
+    transition: .3s;
+}
