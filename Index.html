@@ -17,7 +17,7 @@
         <span class="conversionPress" id="11">11</span>
         <span class="sectorID">233</span>
         <span class="palletID">070</span>
-        <button class="btn-add-number" id="btn11">+</button>
+        <button class="btn-add-number" id="33">+</button>
     </div>
    
 
@@ -53,8 +53,17 @@
         const button = document.querySelector("button");
         button.addEventListener("click", addSector);
 
-        const buttonPlus = document.querySelector();
-        buttonPlus.addEventListener("click", console.log("udalo sie"));
+        const udalosie = function(){
+            console.log("Udalo sie");
+        }
+        
+        
+        const buttonPlus = document.getElementById('1');
+        
+        if(buttonPlus){
+        buttonPlus.addEventListener("click", udalosie);    
+        }
+        
         
         
 
